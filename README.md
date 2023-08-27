@@ -1,4 +1,4 @@
-#### Aayush Bankar's Project Portfolio
+### Aayush Bankar's Project Portfolio
 
 Welcome to my project portfolio! This Markdown document provides an overview of the web development projects I've worked on.
 
