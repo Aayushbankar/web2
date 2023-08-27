@@ -4,6 +4,9 @@ Welcome to my project portfolio! This Markdown document provides an overview of 
 
 ## Projects
 
+##[showcase website ] (https://github.com/Aayushbankar/web2)
+an interactiv and creative web that is like a portfolio web for showcasing the other pages .
+
 ### [AI Chatbot Web Application](https://github.com/Aayushbankar/chat-bot)
 
 
