@@ -22,7 +22,7 @@ The SiliconSquad web page is designed to inspire and unite IT project enthusiast
 
 ## Contact
 
-For inquiries and collaborations, feel free to reach out via email: aayush@example.com.
+For inquiries and collaborations, feel free to reach out via email: aayushbankar46@gmail.com
 
 ---
 &copy; 2023 Aayush Bankar. All rights reserved.
