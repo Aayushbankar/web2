@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,700,500,400italic,500italic,700italic,300italic);
 
 /* Reset some default browser styles */
 body, h1, h2, h3, p, ul, li {
@@ -74,7 +73,7 @@ body {
 
 /* Hero section styles */
 .hero {
-  background: linear-gradient(to bottom right, #525252ce, rgb(3,2,1));
+  background: linear-gradient(to bottom right, orange, red);
   text-align: center;
   padding: 100px 0;
   color: white;
