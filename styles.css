@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,700,500,400italic,500italic,700italic,300italic);
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Global styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero,.interests,.projects{
+  min-height: 100vh;
+}
+
+/* Header styles */
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  transition: background-color 0.3s, backdrop-filter 0.3s;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.navbar-links a:hover {
+  color: #555;
+  background-color: #f0f0f0;
+}
+
+/* Hero section styles */
+.hero {
+  background: linear-gradient(to bottom right, #525252ce, rgb(3,2,1));
+  text-align: center;
+  padding: 100px 0;
+  color: white;
+  animation: backgroundShift 10s infinite;
+}
+
+.hero h1 {
+  font-size: 4em;
+  margin-bottom: 10px;
+  color: transparent;
+  background: linear-gradient(135deg, #00ffd0, #002fff, #ff00e1, #ff1500, #ff8800);
+  background-size: 300% 300%;
+  animation: gradientShiftText 10s ease infinite, gradientShift 10s ease infinite;
+  -webkit-background-clip: text; /* Clip text with background */
+  background-clip: text;
+}
+
+
+.hero p {
+  font-size: 2.2rem;
+  color: transparent;
+  background: linear-gradient(135deg, #77ea6f, #5bb6da, #e65ad5, #ed6d61, #30ea3a);
+  background-size: 300% 300%;
+  animation: gradientShiftText 10s ease infinite, gradientShift 10s ease infinite;
+  -webkit-background-clip: text; /* Clip text with background */
+  background-clip: text;
+}
+
+
+.intro{
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+/* Projects section styles */
+.projects {
+  background: linear-gradient(to bottom left, #FF0099, #493240);
+  padding: 100px 0;
+  animation: backgroundShift 10s infinite;
+  color:#fff;
+
+
+}
+
+.project-card {
+  color:white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Interests section styles */
+.interests {
+  background: linear-gradient(to bottom left, #000046, #1CB5E0);
+  padding: 100px 0;
+  animation: backgroundShift 10s infinite;
+  color: white;
+}
+
+/* Footer styles */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: white;
+}
+
+/* Background shift animation */
+@keyframes backgroundShift {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+@keyframes gradientShiftText {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+
+
+.navbar-links {
+  font-size:15px;
+  font-family:Georgia;
+  width:176px;
+  height:57px;
+  border-width:3px;
+  color:#fff;
+  border-color:#4e6096;
+  border-top-left-radius:22px;
+  border-top-right-radius:22px;
+  border-bottom-left-radius:22px;
+  border-bottom-right-radius:22px;
+  box-shadow: 0px 0px 13px 2px #9fb4f2;
+  text-shadow: 0px 1px 16px #283966;
+  background:linear-gradient(rgba(1, 246, 165, 1), #476e9e);
+}
+
+.navbar-links:hover {
+  background: linear-gradient(#476e9e, rgba(1, 246, 165, 1));
+}
+              
